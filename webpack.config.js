@@ -8,6 +8,8 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: '',
+    clean: true,
   },
   devServer: {
     static: path.join(__dirname, 'dist'),
